@@ -1,0 +1,102 @@
+# ==============================
+# Environment & Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+
+# ==============================
+# Python Virtual Environments
+# ==============================
+
+.venv/
+venv/
+env/
+
+Backend/.venv/
+whisper_env/
+diarization_env/
+
+# ==============================
+# Python Cache
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+Backend/__pycache__/
+
+# ==============================
+# Node / React
+# ==============================
+
+Frontend/node_modules/
+node_modules/
+
+Frontend/dist/
+Frontend/build/
+
+# ==============================
+# Uploaded / Generated Files
+# ==============================
+
+Backend/uploads/
+Backend/reports/
+
+uploads/
+reports/
+
+# ==============================
+# Audio / Media Files
+# ==============================
+
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.flac
+*.ogg
+
+# ==============================
+# Credentials / Tokens
+# ==============================
+
+*token*.txt
+*token*.json
+*secret*.txt
+*credentials*.json
+
+# ==============================
+# Temporary Office Files
+# ==============================
+
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDE
+# ==============================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
